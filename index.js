@@ -14,22 +14,6 @@ const btnOff = document.getElementById("buttonOff")
 
 
 
-function turnOnAndOff() {
-    if (lamp.src.includes("white_lamp")) {
-        lamp.src = "img/yellow_lamp.png"
-        btn.textContent = "spegni"
-     
-    }
-    else {
-        lamp.src = "img/white_lamp.png"
-        btn.textContent = "accendi"
-    
-        
-    }
-
-}
-
-
 
 
 function turnOnAndOff2() {

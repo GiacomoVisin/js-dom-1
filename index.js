@@ -7,6 +7,7 @@ console.log(btn);
 
 
 
+
 function turnOnAndOff(){
     if(lamp.src.includes("white_lamp")){
        lamp.src = "img/yellow_lamp.png" 

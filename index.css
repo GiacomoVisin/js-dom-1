@@ -20,7 +20,15 @@ button{
     font-size: 1.5rem;
     width: 7rem;
     cursor:pointer;
+    position: relative;
+    left: 445px;
+    top: 90px
 }
 
+
+#buttonOff{
+    width: 15rem;
+     cursor:pointer;
+}
 
 

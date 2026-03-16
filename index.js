@@ -1,6 +1,12 @@
 const lamp = document.getElementById("lamp")
 console.log(lamp);
 
+const button = document.getElementById("btn")
+console.log(lamp);
+
+
+
+
 const btn = document.getElementById("btn")
 console.log(btn);
 
@@ -44,6 +50,8 @@ function turnOnAndOff2() {
 }
 
 btnOff.addEventListener("click", turnOnAndOff2)
+button.addEventListener("click", turnOnAndOff2)
+
 
 
 
